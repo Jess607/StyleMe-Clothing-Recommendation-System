@@ -13,7 +13,7 @@ from io import BytesIO
 def get_images_from_folder(folder_id):
     # Replace 'folder_id' with the ID of the folder you want to access
     # Set the path to your Google Drive API credentials JSON file
-    credentials_path = 'clothing-app-397708-5788022966e2.json'
+    credentials_path = 'clothing-app-397708-482332127914.json'
 
 # Initialize the Google Drive API
     creds = None
@@ -60,7 +60,7 @@ def get_images_from_folder(folder_id):
 
 
 def get_images_from_drive(list_file_id):
-    credentials_path = 'clothing-app-397708-5788022966e2.json'
+    credentials_path = 'clothing-app-397708-482332127914.json'
     list_images=[]
 
 # Initialize the Google Drive API
@@ -91,5 +91,9 @@ def get_images_from_drive(list_file_id):
         img = Image.open(BytesIO(downloaded_content))
         list_images.append(img)
     return list_images, list_file_id
+
+
+
+
 
 
