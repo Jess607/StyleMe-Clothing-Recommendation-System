@@ -4,7 +4,7 @@ This project is a customer segmentation analysis of customers of an FMCG store. 
 
 <div style="display: flex; justify-content: space-between;">
   <img src="dress_and_bag.png" alt="Image 1" style="width: 45%;"/>
-  <img src="dress_and_shoe.jpg" alt="Image 2" style="width: 45%;"/>
+  <img src="dress_and_shoe.png" alt="Image 2" style="width: 45%;"/>
 </div>
 
 
