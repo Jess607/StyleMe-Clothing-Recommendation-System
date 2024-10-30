@@ -10,12 +10,12 @@ def calculate_color_similarity(hist1, hist2):
 
 
 def calculate_cosine_similarity(features1, features2):
+	#Calculate cosine similarity between features
 	return cosine(features1, features2)
 
 
 
 def calculate_color_histogram(image):
-	# image = cv2.imread(image_path)
 	image_array=np.asarray(image)
 	hsv_image = cv2.cvtColor(image_array, cv2.COLOR_BGR2HSV)  # Convert image to HSV color space
 
