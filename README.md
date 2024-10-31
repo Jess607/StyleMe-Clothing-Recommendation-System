@@ -40,20 +40,57 @@ pip install -r requirements.txt
 ![Alt text](architecture.jpg)
 
 # About The Project 
-Clustering analysis is perhaps the most popular aspect of unsupervised machine learning aimed at grouping features into clusters that can be further explored. In the words of  Yann LeCun  “if intelligence was a cake, unsupervised learning would be the cake, supervised learning would be the icing on the cake, and reinforcement learning would be the cherry on the cake”. This empahasizes the power wielded by unsupervised-cluster algorithms. 
-
-In business intelligence, it is often useful to create groups of customers or consumers of products for various purposes be it for marketing, creating recommendation systems or just plainly for data analysis. Cluster analysis have shown great potential at meeting the needs of businesses when it comes to carrying out these customer segmentation processes. 
-
-In this project, we applied the k means clustering algorithm to a 2000 instance unlabeled dataset, creating 4 distinct customer segments based on 7 faetures gathered. The k means algorithm has become a popular choice for creating clustering models because of its intuitive and simple approach at solving the problem. Upon creating these segments, we went ahead to create an interactive dashboard to analyse how each customer segment is different from the rest based on the features gathered. An example would be how the average income of one customer segment is different from the next and vice versa. PowerBI's interactive features through the addition of slcers created an easy avenue to carry out this task.
+The StyleMe Clothing Recommendation System is a system that helps individuals create daily outfit recommendations based on input (pictures) provided by said user in a virtual wardrobe. Like the architecture suggests, users provide pictures of outfits in their wardrobe which is then uploaded to an object storage (google drive in our case). In a virtual wardrobe, users have separate folders for different outfit pieces (dresses, pants, shirts, skirts and shoes). 
+The recommendation system uses two distinct methods to generate recommendations; the cosine similarity and a color histogram similarity. With these two algorithms, we are able to provide various combinations of outfits for users taking away the hassle of thinking about outfits. As this is a backend system, all of these are encapsulated in an API which returns the ids of the various outfit pieces to the frontend which is then displayed to the user. In order to call the API, all the forntend does is enter the folder ids for the user and then the system takes over.
+An amazing feature of the recommendation system is its ability to provide outfit recommendations depending on what is present in the user's virtual wardrobe. So if a user has just pants and shirts in their virtual wardrobe, best outfit recommendations will be created based on just those pants and shirts
 
 
 
 
-# File Description 
-The folder contains:
-* `a data folder` that contains the original dataset and that generated after creating the clustering model that served as an input for the powerbi dashboard
-* `customer.ipynb` a jupyter notebook of the clustering model creation 
-* `customer_segment.pbix` the powerbi dashboard created- this should be opened with powerbi desktop
+# How To Use 
+### Clone the Repository
+
+1. Open your terminal or command prompt.
+2. Clone the repository using the following command:
+
+    ```bash
+    git clone <your-repo-url>
+    ```
+
+3. Navigate to the project directory:
+
+    ```bash
+    cd <your-repo-name>
+    ```
+
+### Set Up the Virtual Environment
+
+1. Create a virtual environment:
+
+    ```bash
+    python3 -m venv myenv
+    ```
+
+2. Activate the virtual environment:
+
+    - On macOS/Linux:
+
+        ```bash
+        source myenv/bin/activate
+        ```
+
+    - On Windows:
+
+        ```bash
+        myenv\Scripts\activate
+        ```
+
+3. Install the required packages:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
 
 
 # Licensing And Authors
