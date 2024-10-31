@@ -33,7 +33,7 @@ All packages needed to run the code are available in the `requirements.txt file`
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 
 # Architecture
