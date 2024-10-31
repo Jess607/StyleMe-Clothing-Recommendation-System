@@ -1,6 +1,8 @@
 # StyleMe-Clothing-Recommendation-System
-This project is a customer segmentation analysis of customers of an FMCG store. The goal of the project is to create clusters or groups of these customers to foster marketing decisions and for better undertsanding of customer characteristics which could ultimately impact sales and profit generation.
+What if you didn't have to worry what to wear everyday? What if you had a trustee application to help pick outfits for you? This is exactly what the styleme clothing recommendation system does.
 
+
+## Some outfit combinations
 <div style="display: flex; justify-content: space-between;">
   <img src="Dress_shoe_and_bag.png" alt="Image 1" style="width: 30%; border: 2px solid #000; padding: 5px;"/>
   <img src="pants_shirt_and_shoe.png" alt="Image 2" style="width: 30%; border: 2px solid #000; padding: 5px;"/>
@@ -20,18 +22,20 @@ This project is a customer segmentation analysis of customers of an FMCG store. 
 
 
 # Table Of Contents
-* [Installation](https://github.com/Jess607/Customer-segmentation-Analysis#installation)
-* [About the Project](https://github.com/Jess607/Customer-segmentation-Analysis#about-the-project)
-* [Data Gathering](https://github.com/Jess607/Customer-segmentation-Analysis#data-gathering)
-* [File Description](https://github.com/Jess607/Customer-segmentation-Analysis#file-description)
-* [Licensing And Authors](https://github.com/Jess607/Customer-segmentation-Analysis#licensing-and-authors)
+* [Installation](https://github.com/Jess607/StyleMe-Clothing-Recommendation-System#installation)
+* [Architecture](https://github.com/Jess607/StyleMe-Clothing-Recommendation-System#architecture)
+* [About the Project](https://github.com/Jess607/StyleMe-Clothing-Recommendation-System#about-the-project)
+* [File Description](https://github.com/Jess607/StyleMe-Clothing-Recommendation-System#file-description)
+* [Licensing And Authors](https://github.com/Jess607/StyleMe-Clothing-Recommendation-System#licensing-and-authors)
 
 # Installation 
-The code requires:
-* `python 3 and above`
-* `pandas`
-* `sklearn`
-* `powerbi desktop` for visualization purposes 
+All packages needed to run the code are available in the `requirements.txt file'. To install simply run:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+# Architecture
+![Alt text](architecture.jpg)
 
 # About The Project 
 Clustering analysis is perhaps the most popular aspect of unsupervised machine learning aimed at grouping features into clusters that can be further explored. In the words of  Yann LeCun  “if intelligence was a cake, unsupervised learning would be the cake, supervised learning would be the icing on the cake, and reinforcement learning would be the cherry on the cake”. This empahasizes the power wielded by unsupervised-cluster algorithms. 
@@ -42,8 +46,6 @@ In this project, we applied the k means clustering algorithm to a 2000 instance 
 
 
 
-# Data Gathering 
-Data was gathered from kaggle's amazing repository of datasets available for use.
 
 # File Description 
 The folder contains:
