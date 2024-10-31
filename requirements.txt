@@ -1,0 +1,8 @@
+torch
+pillow
+matplotlib
+torchvision
+opencv-python
+scipy
+numpy
+google-api-python-client
