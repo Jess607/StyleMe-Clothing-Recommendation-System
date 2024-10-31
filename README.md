@@ -25,7 +25,7 @@ What if you didn't have to worry what to wear everyday? What if you had a truste
 * [Installation](https://github.com/Jess607/StyleMe-Clothing-Recommendation-System#installation)
 * [Architecture](https://github.com/Jess607/StyleMe-Clothing-Recommendation-System#architecture)
 * [About the Project](https://github.com/Jess607/StyleMe-Clothing-Recommendation-System#about-the-project)
-* [File Description](https://github.com/Jess607/StyleMe-Clothing-Recommendation-System#file-description)
+* [How To Use](https://github.com/Jess607/StyleMe-Clothing-Recommendation-System?tab=readme-ov-file#how-to-use)
 * [Licensing And Authors](https://github.com/Jess607/StyleMe-Clothing-Recommendation-System#licensing-and-authors)
 
 # Installation 
