@@ -30,10 +30,7 @@ What if you didn't have to worry what to wear everyday? What if you had a truste
 
 # Installation 
 All packages needed to run the code are available in the `requirements.txt file`. To install simply run:
-
-    ```
-    pip install -r requirements.txt
-    ```
+    `pip install -r requirements.txt`
 
 # Architecture
 ![Alt text](architecture.jpg)
