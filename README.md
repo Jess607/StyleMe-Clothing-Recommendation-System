@@ -29,9 +29,9 @@ What if you didn't have to worry what to wear everyday? What if you had a truste
 * [Licensing And Authors](https://github.com/Jess607/StyleMe-Clothing-Recommendation-System#licensing-and-authors)
 
 # Installation 
-All packages needed to run the code are available in the `requirements.txt file'. To install simply run:
+All packages needed to run the code are available in the `requirements.txt file`. To install simply run:
 
-    ```bash
+    ```
     pip install -r requirements.txt
     ```
 
