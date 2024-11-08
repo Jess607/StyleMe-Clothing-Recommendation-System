@@ -1,7 +1,7 @@
 #import libraries
-from dress_methods import get_dress_recommendations
-from pants_methods import get_shirts_recommendations 
-from skirt_methods import get_skirt_recommendations
+from Outfit_methods.dress_methods import get_dress_recommendations
+from Outfit_methods.pants_methods import get_shirts_recommendations 
+from Outfit_methods.skirt_methods import get_skirt_recommendations
 from flask import Flask, request, jsonify
 
 
