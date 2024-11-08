@@ -4,17 +4,17 @@ What if you didn't have to worry what to wear everyday? What if you had a truste
 
 ## Some outfit combinations
 <div style="display: flex; justify-content: space-between;">
-  <img src="Dress_shoe_and_bag.png" alt="Image 1" style="width: 30%; border: 2px solid #000; padding: 5px;"/>
-  <img src="pants_shirt_and_shoe.png" alt="Image 2" style="width: 30%; border: 2px solid #000; padding: 5px;"/>
-  <img src="skirt_shirt_and_bag.png" alt="Image 1" style="width: 30%; border: 2px solid #000; padding: 5px;"/>
+  <img src="Images/Dress_shoe_and_bag.png" alt="Image 1" style="width: 30%; border: 2px solid #000; padding: 5px;"/>
+  <img src="Images/pants_shirt_and_shoe.png" alt="Image 2" style="width: 30%; border: 2px solid #000; padding: 5px;"/>
+  <img src="Images/skirt_shirt_and_bag.png" alt="Image 1" style="width: 30%; border: 2px solid #000; padding: 5px;"/>
 </div>
 
 <br>
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="pants_and_shirt.png" alt="Image 1" style="width: 30%; border: 2px solid #000; padding: 5px;"/>
-  <img src="skirt_shirt_shoe_and_bag.png" alt="Image 2" style="width: 30%; border: 2px solid #000; padding: 5px;"/>
-  <img src="dress_and_bag.png" alt="Image 1" style="width: 30%; border: 2px solid #000; padding: 5px;"/>
+  <img src="Images/pants_and_shirt.png" alt="Image 1" style="width: 30%; border: 2px solid #000; padding: 5px;"/>
+  <img src="Images/skirt_shirt_shoe_and_bag.png" alt="Image 2" style="width: 30%; border: 2px solid #000; padding: 5px;"/>
+  <img src="Images/dress_and_bag.png" alt="Image 1" style="width: 30%; border: 2px solid #000; padding: 5px;"/>
 </div>
 
 
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 
 # Architecture
-![Alt text](architecture.jpg)
+![Alt text](Images/architecture.jpg)
 
 # About The Project 
 The StyleMe Clothing Recommendation System is a system that helps individuals create daily outfit recommendations based on input (pictures) provided by said user in a virtual wardrobe. Like the architecture suggests, users provide pictures of outfits in their wardrobe which is then uploaded to an object storage (google drive in our case). In a virtual wardrobe, users have separate folders for different outfit pieces (dresses, pants, shirts, skirts and shoes). 
